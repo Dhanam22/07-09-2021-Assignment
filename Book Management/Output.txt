@@ -1,0 +1,140 @@
+Welcome to Book Management
+Choose From the Following Option
+1. Add Book Details
+2. Get Book Details
+3. All Book Details
+4. Delete Book
+5. Update Book
+6. Exit
+1
+Enter BookId
+1
+Enter BookName
+EnvironmentalScience
+Enter BookAuthor
+Stanely
+Enter BookCost
+500
+Enter BookType
+Technical
+Enter BookEdition
+3
+Data Inserted Successfully
+Welcome to Book Management
+Choose From the Following Option
+1. Add Book Details
+2. Get Book Details
+3. All Book Details
+4. Delete Book
+5. Update Book
+6. Exit
+1
+Enter BookId
+2
+Enter BookName
+ArabianNights
+Enter BookAuthor
+Richard
+Enter BookCost
+800
+Enter BookType
+Fiction
+Enter BookEdition
+2
+Data Inserted Successfully
+Welcome to Book Management
+Choose From the Following Option
+1. Add Book Details
+2. Get Book Details
+3. All Book Details
+4. Delete Book
+5. Update Book
+6. Exit
+2
+Enter BookId
+1
+1 | EnvironmentalScience | Stanely | 500 | Technical | 3
+Welcome to Book Management
+Choose From the Following Option
+1. Add Book Details
+2. Get Book Details
+3. All Book Details
+4. Delete Book
+5. Update Book
+6. Exit
+3
+Book [Bookid=1, Bookname=EnvironmentalScience, Bookauthor=Stanely, Bookcost=500, Booktype=Technical, Bookedition=3]
+Book [Bookid=2, Bookname=ArabianNights, Bookauthor=Richard, Bookcost=800, Booktype=Fiction, Bookedition=2]
+Welcome to Book Management
+Choose From the Following Option
+1. Add Book Details
+2. Get Book Details
+3. All Book Details
+4. Delete Book
+5. Update Book
+6. Exit
+4
+Enter BookId
+1
+Deleted Succesfully
+Welcome to Book Management
+Choose From the Following Option
+1. Add Book Details
+2. Get Book Details
+3. All Book Details
+4. Delete Book
+5. Update Book
+6. Exit
+3
+Book [Bookid=2, Bookname=ArabianNights, Bookauthor=Richard, Bookcost=800, Booktype=Fiction, Bookedition=2]
+Welcome to Book Management
+Choose From the Following Option
+1. Add Book Details
+2. Get Book Details
+3. All Book Details
+4. Delete Book
+5. Update Book
+6. Exit
+5
+Enter BookId
+2
+Enter BookName
+ArabianNights
+Enter BookAuthor
+Richard
+Enter BookCost
+1000
+Enter BookType
+Fiction
+Enter BookEdition
+3
+Updated Succesfully
+Welcome to Book Management
+Choose From the Following Option
+1. Add Book Details
+2. Get Book Details
+3. All Book Details
+4. Delete Book
+5. Update Book
+6. Exit
+3
+Book [Bookid=2, Bookname=ArabianNights, Bookauthor=Richard, Bookcost=1000, Booktype=Fiction, Bookedition=3]
+Welcome to Book Management
+Choose From the Following Option
+1. Add Book Details
+2. Get Book Details
+3. All Book Details
+4. Delete Book
+5. Update Book
+6. Exit
+6
+Goodbyee
+
+
+mysql> select  * from book;
++--------+---------------+------------+----------+----------+-------------+
+| Bookid | Bookname      | Bookauthor | Bookcost | Booktype | Bookedition |
++--------+---------------+------------+----------+----------+-------------+
+|      2 | ArabianNights | Richard    |     1000 | Fiction  |           3 |
++--------+---------------+------------+----------+----------+-------------+
+1 row in set (0.10 sec)

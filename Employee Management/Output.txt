@@ -1,0 +1,176 @@
+Welcome to Employee Management
+Choose From the Following Option
+1. Add Employee
+2. Get Employee
+3. All Employee Details
+4. Delete Employee
+5. Update Employee
+6. Exit
+1
+Enter Id
+1
+Enter Name
+Dhanam
+Enter Dateofbirth
+22-05-2000
+Enter Salary
+30000
+Enter Designation
+Software
+Enter Start date
+03-08-2021
+Enter End date
+30-09-2021
+Data Inserted Successfully
+Welcome to Employee Management
+Choose From the Following Option
+1. Add Employee
+2. Get Employee
+3. All Employee Details
+4. Delete Employee
+5. Update Employee
+6. Exit
+1
+Enter Id
+2
+Enter Name
+Riya
+Enter Dateofbirth
+11-01-2005
+Enter Salary
+25000
+Enter Designation
+Hardware
+Enter Start date
+03-08-2021
+Enter End date
+30-09-2021
+Data Inserted Successfully
+Welcome to Employee Management
+Choose From the Following Option
+1. Add Employee
+2. Get Employee
+3. All Employee Details
+4. Delete Employee
+5. Update Employee
+6. Exit
+1
+Enter Id
+3
+Enter Name
+Diya
+Enter Dateofbirth
+20-08-1999
+Enter Salary
+50000
+Enter Designation
+HR
+Enter Start date
+02-01-2019
+Enter End date
+30-09-2021
+Data Inserted Successfully
+Welcome to Employee Management
+Choose From the Following Option
+1. Add Employee
+2. Get Employee
+3. All Employee Details
+4. Delete Employee
+5. Update Employee
+6. Exit
+2
+Enter Id
+3
+3 | Diya | 20-08-1999 | 50000 | HR | 02-01-2019 | 30-09-2021
+Welcome to Employee Management
+Choose From the Following Option
+1. Add Employee
+2. Get Employee
+3. All Employee Details
+4. Delete Employee
+5. Update Employee
+6. Exit
+3
+Employee [id=2, name=Shyamala, dateofbirth=11-01-2005, salary=20000, designation=Core, startdate=03-08-2021, enddate=30-09-2021]
+Employee [id=1, name=Dhanam, dateofbirth=22-05-2000, salary=30000, designation=Software, startdate=03-08-2021, enddate=30-09-2021]
+Employee [id=2, name=Riya, dateofbirth=11-01-2005, salary=25000, designation=Hardware, startdate=03-08-2021, enddate=30-09-2021]
+Employee [id=3, name=Diya, dateofbirth=20-08-1999, salary=50000, designation=HR, startdate=02-01-2019, enddate=30-09-2021]
+Welcome to Employee Management
+Choose From the Following Option
+1. Add Employee
+2. Get Employee
+3. All Employee Details
+4. Delete Employee
+5. Update Employee
+6. Exit
+4
+Enter Id
+2
+Deleted Succesfully
+Welcome to Employee Management
+Choose From the Following Option
+1. Add Employee
+2. Get Employee
+3. All Employee Details
+4. Delete Employee
+5. Update Employee
+6. Exit
+3
+Employee [id=1, name=Dhanam, dateofbirth=22-05-2000, salary=30000, designation=Software, startdate=03-08-2021, enddate=30-09-2021]
+Employee [id=3, name=Diya, dateofbirth=20-08-1999, salary=50000, designation=HR, startdate=02-01-2019, enddate=30-09-2021]
+Welcome to Employee Management
+Choose From the Following Option
+1. Add Employee
+2. Get Employee
+3. All Employee Details
+4. Delete Employee
+5. Update Employee
+6. Exit
+5
+Enter Id
+1
+Enter Name
+Dhanam
+Enter Dateofbirth
+22-05-2000
+Enter Salary
+30000
+Enter Designation
+SoftwareEngineer
+Enter Start date
+03-08-2021
+Enter End date
+30-09-2021
+Updated Succesfully
+Welcome to Employee Management
+Choose From the Following Option
+1. Add Employee
+2. Get Employee
+3. All Employee Details
+4. Delete Employee
+5. Update Employee
+6. Exit
+3
+Employee [id=1, name=Dhanam, dateofbirth=22-05-2000, salary=30000, designation=SoftwareEngineer, startdate=03-08-2021, enddate=30-09-2021]
+Employee [id=3, name=Diya, dateofbirth=20-08-1999, salary=50000, designation=HR, startdate=02-01-2019, enddate=30-09-2021]
+Welcome to Employee Management
+Choose From the Following Option
+1. Add Employee
+2. Get Employee
+3. All Employee Details
+4. Delete Employee
+5. Update Employee
+6. Exit
+6
+Goodbyee
+
+
+
+mysql> select  * from employee;
++------+--------+-------------+--------+------------------+------------+------------+
+| id   | name   | dateofbirth | salary | designation      | startdate  | enddate    |
++------+--------+-------------+--------+------------------+------------+------------+
+|    1 | Dhanam | 22-05-2000  |  30000 | SoftwareEngineer | 03-08-2021 | 30-09-2021 |
+|    3 | Diya   | 20-08-1999  |  50000 | HR               | 02-01-2019 | 30-09-2021 |
++------+--------+-------------+--------+------------------+------------+------------+
+2 rows in set (0.00 sec)
