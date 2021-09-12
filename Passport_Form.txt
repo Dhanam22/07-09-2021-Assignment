@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+<style type="text/css">
+#Heading
+{
+color:#ffffff;
+background:#cc66ff;
+}
+#Heading1
+{
+color:#cc0033;
+background:#cc99ff;
+}
+#Heading2
+{
+color:#9900ff;
+background:#cc99ff;
+}
+
+table,tr,td
+{
+background:#cc99ff;
+border:1px solid black;
+border-collapse: collapse;
+border-spacing:5px;
+width:100%;
+height:25px;
+}
+
+th
+{
+text-align: right;
+border:1px solid black;
+}
+
+</style>
+
+ <body>
+  <h3 id="Heading"><b>Online Passport Registration at Indian Missions/Posts for NRIs</b></h3>
+  <table>
+  	<tr>
+	<td id="Heading1"><b> Note: Columns marked with <span style="color:#ff0000">*</span> are compulsory to fill in.</b></td>
+	</tr>
+</table>
+
+<table style="width:100%">
+<tr>
+	<th id="Heading2" width="20%"> Indian Mission<span style="color:#ff0000">*</span></th>
+	<td>
+	<select name="Mission" style="background-color:#ffffcc; width:400px;" >
+	<option value="USA">USA-SAN-FRANSISCO</option>
+	<option value="ALB">ALBANIA</option>
+	<option value="INDIA">INDIA</option>
+	<option value="KOREA">SOUTH KOREA</option>
+	</select>
+	</td>
+</tr>
+
+<tr>
+	<th id="Heading2" > Service Desired<span style="color:#ff0000">*</span></th>
+	<td>
+	<select name="Service" style="background-color:#ffffcc; width:380px;">
+	<option value="Select">Select Service</option>
+	<option value="ISSUE">ISSUE OF FRESH PASSPORT</option>
+	<option value="REISSUE">RE-ISSUE OF PASSPORT</option>
+	<option value="SERVICE">MISCELLANEOUS SERVICE</option>
+	</select>
+	</td>
+</tr>
+
+<tr>
+	<th id="Heading2"> Surname &nbsp; </th>
+	<td>
+	<input type="text" name="uname" width="400" style="width:450px">
+	</td>
+</tr>
+
+<tr>
+	<th id="Heading2"> Given Name/s<span style="color:#ff0000">*</span></th>
+	<td>
+	<input type="text" name="uname" style="width:450px">
+	<br>(Names should be in full Initials and titles such as Ms,Mrs,Dr etc. are not allowed)</br>
+	</td>
+</tr>
+</table>
+
+ <table>
+  	<tr>
+	<td id="Heading1"><b><em>&nbsp; If you have ever changed your name click the box <input type="checkbox"> and indicate Previous Name(s) in full</em></b></td>
+	</tr>
+</table>
+
+<table>
+<tr>
+	<th id="Heading2" width="31.5%">Previous Name</th>
+	<td>
+	<input  style="background-color: #66ffff;" type="text" name="uname" size="45 ">
+	</td>
+</tr>
+
+<tr>
+	<th id="Heading2"> Sex<span style="color:#ff0000">*</span></th>
+	<td>
+	<select name="Service" style="width:100px">
+	<option value="Select">Select Sex</option>
+	<option value="M">Male</option>
+	<option value="F">Female</option>
+	<option value="T">Transgender</option>
+	</select>
+	</td>
+	
+	<th id="Heading2">Date of Birth<span style="color:#ff0000">*</span></th>
+	<td>
+	<input type="text" name="DOB" style="width:100px">
+	<h style="color:#9900ff">(DD/MM/YYYY)</h>
+	</td>
+
+</tr>
+
+<tr>
+	<th id="Heading2">Place of Birth<span style="color:#ff0000">*</span></th>
+	<td>
+	<input type="text" name="Place" style="width:300px" >
+	</td>
+
+	<th id="Heading2">District/Country<span style="color:#ff0000">*</span></th>
+	<td>
+	<input type="text" name="District" style="width:300px" >
+	</td>
+</tr>
+
+<tr>
+	<th id="Heading2">Qualification &nbsp; </th>
+	<td>
+	<input type="text" name="Qualification" style="width:300px" >
+	</td>
+
+	<th id="Heading2">Profession &nbsp;</th>
+	<td>
+	<input type="text" name="Profession" style="width:300px">
+	</td>
+</tr>
+
+<tr>
+	<th id="Heading2">Visible Mark<span style="color:#ff0000">*</span></th>
+	<td >
+	<input type="text" name="Mark" style="width:300px" >
+	</td>
+
+	<th id="Heading2">Height (cms)<span style="color:#ff0000">*</span></th>
+	<td>
+	<input type="text" name="District" style="width:50px">
+	</td>
+	
+</tr>
+
+<tr>
+	<th id="Heading2">Color of Eyes</th>
+	<td>
+	<input type="text" name="Eye Color" style="width:300px" >
+	</td>
+
+	<th id="Heading2">Color of Hair</th>
+	<td>
+	<input type="text" name="Hair Color" style="width:300px">
+	</td>
+</tr>
+
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+
+ <tr>
+	<th id="Heading2" width="20%">Address to be Printed in<br> Passport<span style="color:#ff0000">*</span></br></th>
+	<td>
+	<input type="text" name="Address"style="width:300px" >
+	</td>
+
+	<th id="Heading2" width="20%">Other Address<span style="color:#ff0000">*</span></th>
+	<td>
+	<input type="text" name="Address" style="width:300px">
+	</td>
+</tr>
+
+ <tr>
+	<th id="Heading2">(At Least First Two Address Lines are to be Filled)</th>
+	<td>
+	<input type="text" name="Address" style="width:300px">
+	<input type="text" name="Address" style="width:300px">
+	</td>
+
+	<th id="Heading2"> </th>
+	<td>
+	<input type="text" name="Address" style="width:300px">
+	<input type="text" name="Address" style="width:300px">
+	</td>
+</tr>
+
+ <tr>
+	<th id="Heading2">Phone No</th>
+	<td>
+	<input type="text" name="Number"style="width:100px" >
+	</td>
+
+	<th id="Heading2">Mobile No</th>
+	<td>
+	<input type="text" name="Address" style="width:100px">
+	</td>
+</tr>
+
+ <tr>
+	<th id="Heading2">Email Address</th>
+	<td>
+	<input type="text" name="Number"style="width:200px" >
+	</td>
+
+	<th></th>
+	<th></th>
+</tr>
+
+</table>
+
+ <table>
+  	<tr>
+		<td id="Heading1"><b><em> &nbsp; Applicant's Family Information(All Names should be in full Initials and titles such as Ms,Mrs,Dr etc. are not allowed.)<b></em></td>
+	</tr>
+</table>
+
+<table>
+<tr>
+	<th id="Heading2" width="20%"> Marital Status<span style="color:#ff0000">*</span></th>
+	<td>
+	<select name="Service" style="background-color:#ffffcc; width:150px">
+	<option value="Select">Select Marital Status</option>
+	<option value="Single">Single</option>
+	<option value="Married">Married</option>
+	<option value="Widowed">Widowed</option>
+	<option value="Divorced">Divorced</option>
+	</select>
+	</td>
+</tr>
+
+<tr>
+	<th id="Heading2">Spouse's Name</th>
+	<td>
+	<input type="text" name="Name" style="background-color: #66ffff; width:300px" >
+	</td>
+</tr>
+
+<tr>
+	<th id="Heading2">Spouse's Nationality</th>
+	<td>
+	<input type="text" name="Nationality" style="background-color: #66ffff; width:300px" >
+	</td>
+</tr>
+
+<tr>
+	<th id="Heading2">Father's Name<span style="color:#ff0000">*</span></th>
+	<td>
+	<input type="text" name="Name" style="width:350px" >
+	</td>
+</tr>
+
+<tr>
+	<th id="Heading2">Father's Birth Country</th>
+	<td>
+	<input type="text" name="Name" style="width:350px" >
+	</td>
+</tr>
+
+<tr>
+	<th id="Heading2">Nationality of Father at the <br>time of applicant's birth</br></th>
+	<td>
+	<input type="text" name="Name" style="width:350px" >
+	</td>
+</tr>
+
+<tr>
+	<th id="Heading2">Mother's Name<span style="color:#ff0000">*</span></th>
+	<td>
+	<input type="text" name="Name" style="width:300px" >
+	</td>
+</tr>
+
+<tr>
+	<th id="Heading2">Mother's Birth Country</th>
+	<td>
+	<input type="text" name="Name" style="width:300px" >
+	</td>
+</tr>
+
+<tr>
+	<th id="Heading2">Nationality of Mother at the <br>time of applicant's birth</br></th>
+	<td>
+	<input type="text" name="Name" style="width:300px" >
+	</td>
+</tr>
+
+<tr>
+</tr>
+
+</table>
+
+ <table>
+  	<tr>
+		<td id="Heading1"><b><em>If you have held a passport or hold a passport at present, click on this box <input type="checkbox"> and fill the details below:<b></em></td>
+	</tr>
+</table>
+
+<table>
+
+<tr>
+	<th id="Heading2" width="23.5%">OldExisting Passport No</th>
+	<td>
+	<input type="text" name="Number" style="width:100px" >
+	</td>
+
+	<th id="Heading2">Issue Date</th>
+	<td>
+	<input type="text" name="Date" style="width:100px">
+	<h style="color:#9900ff">(DD/MM/YYYY)</h>                        
+	</td>
+</tr>
+
+
+<tr>
+	<th id="Heading2">Place of Issue</th>
+	<td>
+	<input type="text" name="Name" style="width:125px" >
+	</td>
+
+	<th id="Heading2"">File Number</th>
+	<td>
+	<input type="text" name="DOB" style="width:90px">
+	</td>
+</tr>
+</table>
+
+ </body>
+</html>
+
+

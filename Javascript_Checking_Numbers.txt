@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+do
+{
+	document.write("<br>");
+		document.write("Select Option From Menu Card : "+"<br>");
+		document.write("1. Even or Odd"+"<br>");
+		document.write("2. Prime or Not"+"<br>");
+		document.write("3. Palindrome or Not"+"<br>");
+		document.write("4. Armstrong or Not"+"<br>");
+		document.write("5. Perfect or Not"+"<br>");
+		document.write("6. Exit"+"<br>");
+		
+		
+		var ch=parseInt(prompt("Enter a Option:"));
+
+		switch(ch)
+		{
+		case 1:
+			var a=parseInt(prompt("Enter a Number : "));
+			if(a%2==0)
+			{
+				document.write("Number "+a+" is Even!"+"<br>");
+			}
+			else
+			{
+				document.write("Number "+a+" is Odd!"+"<br>");
+			}
+			break;
+		
+		case 2:
+			var b=parseInt(prompt("Enter a Number : "));
+			var flag=0;
+			
+			if(b==0||b==1)
+			{
+				document.write("Number "+b+" is Not a Prime!"+"<br>");
+			}
+			else
+			{
+			for(let i=2;i<=(b/2);i++)
+			{
+				if(b%i==0)
+				{
+					document.write("Number "+b+" is Not a Prime!"+"<br>");
+					 flag=1;
+					 break;
+				}
+			}
+			}
+			if(flag==0)
+			{
+				document.write("Number "+b+" is Prime!"+"<br>");
+			}
+			
+			break;
+			
+		case 3:
+			var c=parseInt(prompt("Enter a Number : "));
+			var c1=c;
+			var c2,res=0;
+			
+			while(c>0)
+			{
+				c2=c%10;
+			    res=(res*10)+c2;
+				c=parseInt(c/10);
+			}
+			
+			if(c1==res)
+			{
+				document.write("Number "+c1+" is a Palindrome!"+"<br>");
+			}
+			else
+			{
+				document.write("Number "+c1+" is Not a palindrome!"+"<br>");
+			}
+			break;
+			
+		case 4:
+			
+			var d=parseInt(prompt("Enter a Number : "));
+
+			var d1=d;
+			var out=0,d2;
+			
+			while(d>0)
+			{
+				d2=parseInt(d%10);
+				out=out+Math.pow(d2,3);
+				d=parseInt(d/10);
+			}
+			document.write(d+"<br>");
+			document.write(d2+"<br>");
+			document.write(out+"<br>");
+			if(d1==out)
+			{
+				document.write("Number "+d1+" is an Armstrong Number!"+"<br>");
+			}
+			else
+			{
+				document.write("Number "+d1+" is Not an Armstrong Number!"+"<br>");
+			}
+			break;
+			
+		case 5:
+			var e=parseInt(prompt("Enter a Number : "));
+			var sum=0,i;
+			
+			for(let i=1;i<e;i++)
+			{
+				if(e%i==0)
+				{
+					sum=sum+i;
+				}
+			}
+			if(sum==e)
+			{
+				document.write("Number "+e+" is a Perfect Number!"+"<br>");
+			}
+			else
+			{
+				document.write("Number "+e+" is not a Perfect Number!"+"<br>");
+			}
+			break;
+			}
+			}while(ch!=6);
+  </script>
+ </body>
+</html>
+
+
+
+OUTPUT:
+
+
+Select Option From Menu Card : 
+1. Even or Odd
+2. Prime or Not
+3. Palindrome or Not
+4. Armstrong or Not
+5. Perfect or Not
+6. Exit
+Number 24 is Even!
+
+Select Option From Menu Card : 
+1. Even or Odd
+2. Prime or Not
+3. Palindrome or Not
+4. Armstrong or Not
+5. Perfect or Not
+6. Exit
+Number 5 is Prime!
+
+Select Option From Menu Card : 
+1. Even or Odd
+2. Prime or Not
+3. Palindrome or Not
+4. Armstrong or Not
+5. Perfect or Not
+6. Exit
+Number 121 is a Palindrome!
+
+Select Option From Menu Card : 
+1. Even or Odd
+2. Prime or Not
+3. Palindrome or Not
+4. Armstrong or Not
+5. Perfect or Not
+6. Exit
+Number 145 is Not a palindrome!
+
+Select Option From Menu Card : 
+1. Even or Odd
+2. Prime or Not
+3. Palindrome or Not
+4. Armstrong or Not
+5. Perfect or Not
+6. Exit
+0
+1
+153
+Number 153 is an Armstrong Number!
+
+Select Option From Menu Card : 
+1. Even or Odd
+2. Prime or Not
+3. Palindrome or Not
+4. Armstrong or Not
+5. Perfect or Not
+6. Exit
+0
+4
+189
+Number 45 is Not an Armstrong Number!
+
+Select Option From Menu Card : 
+1. Even or Odd
+2. Prime or Not
+3. Palindrome or Not
+4. Armstrong or Not
+5. Perfect or Not
+6. Exit
+Number 6 is a Perfect Number!
+
+Select Option From Menu Card : 
+1. Even or Odd
+2. Prime or Not
+3. Palindrome or Not
+4. Armstrong or Not
+5. Perfect or Not
+6. Exit
